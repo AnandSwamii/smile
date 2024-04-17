@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.circle{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    position: relative;
+    margin:100px;
+    transition: 5s;
+    
+}
+.circle:hover{
+    transform: rotate(3600deg);
+
+}
+.box1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 110px;
+    left: 80px;
+
+}
+.box2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 110px;
+    left: 265px;
+
+}
+.box3{
+    height: 70px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: purple;
+    position: absolute;
+    bottom: 70px;
+    left: 125px;
+
+}
